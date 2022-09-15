@@ -1,0 +1,31 @@
+
+body
+{
+    background-color: #24292e;
+    background-image: url(imgs/body/star-bg.svg);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+header
+{
+    font-family: 'Roboto','Roboto-Regular', sans-serif;
+    text-align: center;
+    padding-top: 32px;
+}
+.nav
+{
+    font-size: 16px;
+    color: #9f7be1;
+    display: inline-block;
+    margin-inline: 7px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+.nav:hover
+{
+    text-decoration: underline;
+}
+.overview
+{
+    color: white;
+}
