@@ -16,6 +16,7 @@ header
 {
     text-align: center;
     padding-top: 32px;
+    white-space: nowrap;
 }
 
 .nav
@@ -27,6 +28,7 @@ header
     margin-top: 8px;
     margin-bottom: 50px;
     text-decoration: none;
+    font-weight: normal;
 }
 .nav:hover
 {
@@ -50,6 +52,33 @@ header
     font-size: 18px;
     margin: 0 auto;
 }
+.btn
+{
+    display: inline-block;
+    line-height: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px;
+    padding-inline: 22.5px;
+    border: black 1px solid;
+    border-radius: 5px;
+    white-space: nowrap;
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+
+}
+.btn:hover
+{
+    background-image: linear-gradient(to bottom, #8f55fa, #55327e);
+}
+.btn:active
+{
+    background-image: linear-gradient(to bottom, #55327e, #8f55fa);
+}
 
 @media (min-width: 768px)
 {
@@ -61,5 +90,12 @@ header
     .titulo
     {
         font-size: 48px;
+    }
+    .btn
+    {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-inline: 25px;
+        font-size: 20px;
     }
 }
