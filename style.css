@@ -71,6 +71,12 @@ header
     background-image: linear-gradient(to bottom, #8241f9, #4e277b);
 
 }
+.container1
+{
+    max-width: 980px;
+    margin: auto;
+    display: block;
+}
 .btn:hover
 {
     background-image: linear-gradient(to bottom, #8f55fa, #55327e);
@@ -84,7 +90,7 @@ header
 {
     .p1
     {
-        width: 65.6666666667%;
+        width: 66%;
         font-size: 20px;
     }
     .titulo
@@ -97,5 +103,20 @@ header
         padding-bottom: 15px;
         padding-inline: 25px;
         font-size: 20px;
+    }
+}
+
+@media (min-width:1012px)
+{
+    .container1
+    {
+        max-width: 1012px;
+    }
+}
+@media (min-width:1280px)
+{
+    .container1
+    {
+        max-width: 1280px;
     }
 }
