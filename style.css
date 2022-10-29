@@ -18,7 +18,21 @@ header
     padding-top: 32px;
     white-space: nowrap;
 }
-
+h5
+{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-block-end: 3px;
+}
+main
+{
+    justify-content: center;
+}
+a
+{
+    text-decoration: none;
+}
 .nav
 {
     font-size: 16px;
@@ -30,13 +44,17 @@ header
     text-decoration: none;
     font-weight: normal;
 }
-.nav:hover
+a:hover
 {
     text-decoration: underline;
 }
 .overview
 {
     color: white;
+}
+.purple
+{
+    color: #9f7be1;
 }
 .titulo
 {
@@ -51,6 +69,13 @@ header
     color: rgba(255,255,255,0.65);
     font-size: 18px;
     margin: 0 auto;
+}
+.p2
+{
+    margin-inline: auto;
+    color: rgba(255,255,255,0.65);
+    font-weight: 400;
+    font-size: 14px;
 }
 .btn
 {
@@ -77,6 +102,19 @@ header
     margin: auto;
     display: block;
 }
+#dvpimgs
+{
+    display: block;
+    max-width: 900px;
+}
+.dvpimgs
+{
+    width: 236px;
+    margin-inline: auto;
+    color: rgba(255,255,255,0.65);
+    font-weight: 400;
+    font-size: 14px;
+}
 .btn:hover
 {
     background-image: linear-gradient(to bottom, #8f55fa, #55327e);
@@ -88,6 +126,15 @@ header
 
 @media (min-width: 768px)
 {
+    #dvpimgs
+    {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        justify-content: center;
+    }
     .p1
     {
         width: 66%;
