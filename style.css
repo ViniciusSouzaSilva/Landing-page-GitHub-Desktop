@@ -116,6 +116,13 @@ a
     font-size: 14px;
     margin-bottom: 50px;
 }
+#screenshotdiv
+{
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+}
 .purple:hover
 {
     text-decoration: underline;
@@ -161,6 +168,7 @@ a
         padding-inline: 25px;
         font-size: 20px;
     }
+    
 }
 
 @media (min-width:1012px)
@@ -168,6 +176,10 @@ a
     .container1
     {
         max-width: 1012px;
+    }
+    #screenshotdiv
+    {
+        max-width: 980px;
     }
 }
 @media (min-width:1280px)
